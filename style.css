@@ -132,6 +132,26 @@ h2 {
   margin: 3rem 0 0 auto;
   width: fit-content;
 }
+footer {
+  border-bottom: 0;
+  padding: 1rem 1.25rem 4rem;
+}
+footer nav a {
+  display: block;
+  padding-left: 0;
+}
+form label {
+  display: block;
+  font-size: 1.5rem;
+}
+form input {
+  border: 2px solid var(--color-black);
+  box-shadow: 4px 4px 0 var(--color-black);
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+/*Utilitários*/
 .mt-1 {
   margin-top: 1rem;
 }
